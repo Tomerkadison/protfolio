@@ -28,12 +28,11 @@ Never #000/#fff. No gradient text.
 
 ## Layout
 
-Left-aligned, asymmetric 12-column grid, max-width 1120px. Section headers: mono index (`01`) plus title plus full-width rule. Experience as a ruled timeline; projects as alternating asymmetric feature rows (no identical card grids); skills as a spec-sheet definition table. Spacing rhythm via `clamp()`, generous between sections, tight inside groups.
+Left-aligned, asymmetric 12-column grid, max-width 1120px. Hero is the name plus a short projects-first lede; keep it plain and confident, no metric gimmicks. Section order: projects (01), experience (02), skills (03), contact (04). Section headers: mono index plus title plus full-width rule. Experience as ruled rows; projects as alternating asymmetric feature rows (no identical card grids); skills as a spec-sheet definition table. Spacing rhythm via `clamp()`, generous between sections, tight inside groups.
 
 ## Components
 
 - **Status line**: small green pulsing dot plus mono text ("open to new roles").
-- **Metrics readout**: Prometheus exposition-format block in mono (comment lines muted, values amber).
 - **Sparkline**: hand-tuned SVG latency line in amber with one alert dot, stroke-draw on load.
 - **Tag chip**: mono, 1px full border, pill radius 3px.
 - **Buttons**: solid ink primary; 1px bordered secondary. Radius 4px.
